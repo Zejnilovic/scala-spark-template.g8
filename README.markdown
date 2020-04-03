@@ -1,12 +1,16 @@
 # Scala + Spark Template
 A [Giter8][g8] template for Scala with Spark. This template is done mainly for small spark jobs and trying out concepts. This template does not encapsulate everything needed for a full and deployable spark project.
 
+Main class creates a bogus DataFrame with two columns and runs count, just to display everything is working.
+
 # Usage
 
 1. Get [Giter8][g8]
 2. Run command `g8 Zejnilovic/scala-spark-template.g8`
 3. Fill in properties or keep defaults
-4. A directory with chose name should appear in your current directory
+4. `cd <project name>`
+5. `sbt assembly`
+6. `spark-sumbit target/scala-<scala version>/<project name>-assembly-<project version>.jar`
 
 # Properties (and their defaults)
 ```
