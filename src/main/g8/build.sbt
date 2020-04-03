@@ -9,6 +9,8 @@ libraryDependencies ++=  List(
   "org.scalatest"    %% "scalatest" % "$scalatest_version$" % Test
 )
 
+mainClass in assembly := Some("$package$.SparkApp")
+
 assemblyMergeStrategy in assembly := {
   case PathList("org", "aopalliance", _@_*) => MergeStrategy.last
   case PathList("javax", "inject", _@_*) => MergeStrategy.last

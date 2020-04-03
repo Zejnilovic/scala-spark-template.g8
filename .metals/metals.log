@@ -155,3 +155,5 @@ Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range:
 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
 	... 4 more
 
+WARN  no build target for: /Users/absz189/Development/tinkering/scala-spark.g8/src/main/g8/src/main/scala/$package$/SparkApp.scala
+INFO  skipping build import with status 'Requested'
