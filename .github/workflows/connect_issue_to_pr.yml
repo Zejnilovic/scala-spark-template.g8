@@ -9,7 +9,7 @@ jobs:
     name: A job to say hello
     steps:
       - name: Post PR Create Action
-        uses: Zejnilovic/post-pr-create-action@1.3-alpha.1
+        uses: Zejnilovic/post-pr-create-action@v1.3-alpha.2
         with:
           ZENHUB_TOKEN: ${{ secrets.ZENHUB_TOKEN }}
         env:
