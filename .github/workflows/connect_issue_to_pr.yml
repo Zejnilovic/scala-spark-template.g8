@@ -12,3 +12,5 @@ jobs:
         uses: Zejnilovic/post-pr-create-action@v1.3
         with:
           ZENHUB_TOKEN: ${{ secrets.ZENHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
