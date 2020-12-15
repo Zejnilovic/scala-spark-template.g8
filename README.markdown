@@ -3,7 +3,7 @@ A [Giter8][g8] template for Scala with Spark. This template is done mainly for s
 
 Main class creates a bogus DataFrame with two columns and runs count, just to display everything is working.
 
-# Usage
+# Usage (Giter)
 
 1. Get [Giter8][g8]
 2. Run command `g8 Zejnilovic/scala-spark-template.g8`
@@ -11,6 +11,16 @@ Main class creates a bogus DataFrame with two columns and runs count, just to di
 4. `cd <project name>`
 5. `sbt assembly`
 6. `spark-sumbit target/scala-<scala version>/<project name>-assembly-<project version>.jar`
+
+# Usage (SBT)
+
+1. Run command `sbt new Zejnilovic/scala-spark-template.g8`
+2. Fill in properties or keep defaults
+3. `cd <project name>`
+4. `sbt assembly`
+5. `spark-sumbit target/scala-<scala version>/<project name>-assembly-<project version>.jar`
+
+
 
 # Properties (and their defaults)
 ```
